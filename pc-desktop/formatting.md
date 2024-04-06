@@ -17,7 +17,7 @@
       1. Exportar marcadores.
       2. Verificar si toca actualizar [lista de extensiones para el navegador](../browser/extensions.md).
    9. **VS Code:**
-      1. Verificar si toca actualizar lista de extensiones para el editor de código
+      1. Verificar si toca actualizar [lista de extensiones para el editor de código](../vs-code/extensions.md).
       2. Verificar si toca actualizar ajustes de usuario en JSON
    10. **Drivers:**
       1. Ir al directorio *C:\Windows\System32*.
