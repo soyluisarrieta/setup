@@ -12,7 +12,7 @@
    4. Revisar htdocs que los proyectos relevantes se hallan hecho push a GitHub.
    5. Screenshot a las extensiones más relevantes del navegador.
    6. Screenshot a los accesos directos anclados al menu.
-   7. Verificar si toca actualizar los alias de bash
+   7. Verificar si toca actualizar los [alias de bash](../terminal/bash-aliases.md)
    8. **Navegador:**
       1. Exportar marcadores.
       2. Verificar si toca actualizar lista de extensiones para el navegador.
