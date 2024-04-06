@@ -1,0 +1,34 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "minimum_chrome_version": "49",
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon_19.png",
+      "38": "icons/icon_38.png"
+    },
+    "default_title": "__MSG_extName__",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icons/icon_128.png",
+    "48": "icons/icon_48.png",
+    "16": "icons/icon_16.png"
+  },
+  "permissions": ["webRequest", "tabs", "http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://mediatools.rndnm.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "default_locale": "en",
+  "version": "1.0"
+}

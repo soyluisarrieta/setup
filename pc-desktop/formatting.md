@@ -15,10 +15,10 @@
    7. Verificar si toca actualizar los [alias de bash](../terminal/bash-aliases.md)
    8. **Navegador:**
       1. Exportar marcadores.
-      2. Verificar si toca actualizar lista de extensiones para el navegador.
+      2. Verificar si toca actualizar [lista de extensiones para el navegador](../browser/extensions.md).
    9. **VS Code:**
-      1. Verificar si toca actualizar lista de extensiones para el editor de código.
-      2. Verificar si toca actualizar ajustes de usuario en JSON.
+      1. Verificar si toca actualizar lista de extensiones para el editor de código
+      2. Verificar si toca actualizar ajustes de usuario en JSON
    10. **Drivers:**
       1. Ir al directorio *C:\Windows\System32*.
       2. Seleccionar y copiar las carpetas *drivers* y *DriverStore*.
