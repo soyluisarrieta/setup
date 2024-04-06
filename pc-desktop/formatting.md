@@ -18,7 +18,7 @@
       2. Verificar si toca actualizar [lista de extensiones para el navegador](../browser/extensions.md).
    9. **VS Code:**
       1. Verificar si toca actualizar [lista de extensiones para el editor de código](../vs-code/extensions.md).
-      2. Verificar si toca actualizar ajustes de usuario en JSON
+      2. Verificar si toca actualizar [ajustes de usuario en JSON](../vs-code/user-settings-json.md).
    10. **Drivers:**
       1. Ir al directorio *C:\Windows\System32*.
       2. Seleccionar y copiar las carpetas *drivers* y *DriverStore*.
