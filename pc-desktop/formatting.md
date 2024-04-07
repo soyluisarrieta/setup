@@ -182,8 +182,9 @@
 
 ### 🗜️ Aplico configuraciones adicionales los programas
 
-  1.
+  1. 
 
 ### ✅ Pasos finales
 
-  1.
+  1. Desanclar todo del menú de Windows
+  2. Ir a "Configuración de inicio" y modificar a gusto
