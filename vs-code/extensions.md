@@ -4,7 +4,7 @@
 
 | Nombre de la Extensión | Descripción en Español | Autor |
 | --- | --- | --- |
-| [Fluent UI for VSCode](https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.fluent-ui-vscode) | Fluent UI para VSCode basado en diseños conceptuales de u/zeealeidahmad | Leandro Rodrigues |
+| [Fluent UI for VSCode](https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.fluent-ui-vscode) (⚠️ Ejecutar VS-Code como Admin) | Fluent UI para VSCode basado en diseños conceptuales de u/zeealeidahmad | Leandro Rodrigues |
 | [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) | El icónico tema One Dark de Atom para Visual Studio Code | binaryify |
 | [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) | Un simple tema de iconos de archivos para VS Code | Miguel Solorio |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) | Todo lo que necesitas para escribir Markdown (atajos de teclado, tabla de contenidos, vista previa automática y más) | Yu Zhang |
