@@ -74,7 +74,7 @@
      10. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
   3. Verificar la distribucion de teclado (Español México).
   4. Personalizar windows dark con ventana en light.
-  5. Activar luz nocturna con intensidad a gusto (37%).
+  5. Activar luz nocturna con intensidad a gusto (30%).
   6. Tiempos de espera 5min a 1h
   7. Suspención a nunca.
   8. Quitar accesos directos de la barra de tareas buscando "Configuración barra de tareas".
@@ -85,14 +85,14 @@
      1. Activar mostrar "Extensiones de nombre de archivos".
      2. Activar mostrar "Elementos ocultos".
   13. Formatear y cambiar letra del disco de los archivos en el disco de unidad "D".
-      1. Buscar "Crear y formatear particiones del disco duro"
-      2. Clic derecho en la unidad y presionar en "Cambiar letra y ruta de acceso de unidad..."
-      3. Presionar "Cambiar" y seleccionar "D"
-      4. Presionar "Aceptar" y confirmar acción en "Si"
-      5. Clic derecho nuevamente a la unidad y presionar "Formatear"
-      6. En etiqueta introducir "ARCHIVOS"
-      7. En sistema de archivos en "NTFS"
-      8. Presionar "Aceptar" y confirmar accion en "Acetar"
+      1. Buscar "Crear y formatear particiones del disco duro".
+      2. Clic derecho en la unidad y presionar en "Cambiar letra y ruta de acceso de unidad...".
+      3. Presionar "Cambiar" y seleccionar "D".
+      4. Presionar "Aceptar" y confirmar acción en "Si".
+      5. Clic derecho nuevamente a la unidad y presionar "Formatear".
+      6. En etiqueta introducir "ARCHIVOS".
+      7. En sistema de archivos en "NTFS".
+      8. Presionar "Aceptar" y confirmar accion en "Acetar".
   14. Cambiar ubicación de las carpetas generales al disco D.
       1. Creamos la carpeta "Mi PC" y dentro las carpetas:
          1. Escritorio
@@ -106,6 +106,7 @@
       5. Presionar "Seleccionar carpeta" y en la ventana de propiedades clic en "Aplicar".
       6. En la ventana confirmamos la acción en el botón "Sí"
       7. En la misma ventana de propiedades clic en "Aceptar" y repetimos el proceso con cada carpeta.
+  14. Reiniciar y volver a entrar la la BIOS para bajar la prioridad de arranque al USB.
 
 ### ⬇️ Descargo e instalo los programas
 
