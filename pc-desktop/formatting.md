@@ -62,25 +62,39 @@
 ### ✨ Configuro mis preferencias iniciales
 
   1. Usar copia de seguridad de los Drivers:
-     1. Buscar en el menú "Administrador de dispositivos".
-     2. Desplegar pestaña por ejemeplo "Adaptadores de pantalla".
-     3. Clic derecho al controlador y presionar "Actualizar controlador"
-     4. Presionar en "Buscar controladores en mi equipo".
-     5. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
-     6. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
-     7. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
-  2. Verificar la distribucion de teclado (Español España).
-  3. Personalizar windows dark con ventana en light.
-  4. Tiempos de espera 5min - 3h y suspención a los 15min - 5h.
-  5. Anclar Explorador de archivos en la barra de herramientas.
-  6. Quitar el icono de la vista de tareas de la barra de herramientas.
-  7. Quitar recientes del menú.
-  8. En el explorador de archivos:
-     1. Activar "Mostrar extensiones de nombre de archivos".
-     2. Activar "Mostrar elementos ocultos".
-  9. Convertir el disco de los archivos en el disco de unidad "D".
-  10. Cambiar ubicación de las carpetas generales.
-      1. Creamos las carpetas en el disco D:
+     1. Si no usará la copia de seguridad, en el menú buscar "Buscar actualizaciones"
+     2. Presionar el botón de buscar actualizaciones.
+     3. Si usará la copia de seguridad, copiar y pegar los drivers al escritorio.
+     4. Buscar en el menú "Administrador de dispositivos".
+     5. Desplegar pestaña por ejemeplo "Adaptadores de pantalla".
+     6. Clic derecho al controlador y presionar "Actualizar controlador"
+     7. Presionar en "Buscar controladores en mi equipo".
+     8. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
+     9. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
+     10. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
+  3. Verificar la distribucion de teclado (Español México).
+  4. Personalizar windows dark con ventana en light.
+  5. Activar luz nocturna con intensidad a gusto (37%).
+  6. Tiempos de espera 5min a 1h
+  7. Suspención a nunca.
+  8. Quitar accesos directos de la barra de tareas buscando "Configuración barra de tareas".
+  9. Ocultar icono de buscar de la barra de tareas.
+  10. Desanclar el resto de accesos directos de la barra de tareas.
+  11. Quitar recientes del menú.
+  12. En el explorador de archivos desplegar en "Ver" y "Mostrar:
+     1. Activar mostrar "Extensiones de nombre de archivos".
+     2. Activar mostrar "Elementos ocultos".
+  13. Formatear y cambiar letra del disco de los archivos en el disco de unidad "D".
+      1. Buscar "Crear y formatear particiones del disco duro"
+      2. Clic derecho en la unidad y presionar en "Cambiar letra y ruta de acceso de unidad..."
+      3. Presionar "Cambiar" y seleccionar "D"
+      4. Presionar "Aceptar" y confirmar acción en "Si"
+      5. Clic derecho nuevamente a la unidad y presionar "Formatear"
+      6. En etiqueta introducir "ARCHIVOS"
+      7. En sistema de archivos en "NTFS"
+      8. Presionar "Aceptar" y confirmar accion en "Acetar"
+  14. Cambiar ubicación de las carpetas generales al disco D.
+      1. Creamos la carpeta "Mi PC" y dentro las carpetas:
          1. Escritorio
          2. Documentos
          3. Imágenes
