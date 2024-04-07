@@ -52,10 +52,12 @@
        - **Disco C** (Programas, instalaciones, configuraciones, códigos de programación en htdocs) le asignamos un tamaño de **204,800 MB**
        - **Disco D** (Carpetas documentos, imagenes, video, musica, escritorio, archivos importantes) le asignamos el restante completo.
    14. Seleccionamos la unidad Disco C (La que tiene 200gb) y presionar "Siguiente".
-   15. Una vez termine el proceso de instalación, introducimos el nombre al dispositivo y presionar "Siguiente".
-   16. Seleccionamos la configuración para uso personal y presionar "Siguiente".
-   17. Presionar "Iniciar sesión" para ingresar o crear la cuenta de Microsoft.
-   18. Con esto finalizaría los últimos ajustes de instalación.
+   15. Una vez termine el proceso de instalación, seleccionamos el idioma y distribución de teclado y presionar "Siguiente".
+   16. Introducimos el nombre al dispositivo y presionar "Siguiente".
+   17. Seleccionamos la configuración para uso personal y presionar "Siguiente".
+   18. Presionar "Iniciar sesión" para ingresar o crear la cuenta de Microsoft.
+   19. Continuas el proceso de configuración a tu gusto.
+   20. Con esto finalizaría los últimos ajustes de instalación.
 
 ### ✨ Configuro mis preferencias iniciales
 
