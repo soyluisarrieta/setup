@@ -62,16 +62,18 @@
 ### ✨ Configuro mis preferencias iniciales
 
   1. Usar copia de seguridad de los Drivers:
-     1. Si no usará la copia de seguridad, en el menú buscar "Buscar actualizaciones"
-     2. Presionar el botón de buscar actualizaciones.
-     3. Si usará la copia de seguridad, copiar y pegar los drivers al escritorio.
-     4. Buscar en el menú "Administrador de dispositivos".
-     5. Desplegar pestaña por ejemeplo "Adaptadores de pantalla".
-     6. Clic derecho al controlador y presionar "Actualizar controlador"
-     7. Presionar en "Buscar controladores en mi equipo".
-     8. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
-     9. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
-     10. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
+     1. Sin copia de seguridad:
+         1. En el menú buscar "Buscar actualizaciones"
+         2. Presionar el botón de buscar actualizaciones.
+         3. Esperar que búsque, descargue e instale drivers.
+     2. Con copia de seguridad, copiar y pegar los drivers al escritorio.
+     3. Buscar en el menú "Administrador de dispositivos".
+     4. Desplegar pestaña por ejemeplo "Adaptadores de pantalla".
+     5. Clic derecho al controlador y presionar "Actualizar controlador"
+     6. Presionar en "Buscar controladores en mi equipo".
+     7. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
+     8. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
+     9. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
   3. Verificar la distribucion de teclado (Español México).
   4. Personalizar windows dark con ventana en light.
   5. Activar luz nocturna con intensidad a gusto (30%).
@@ -106,6 +108,14 @@
       5. Presionar "Seleccionar carpeta" y en la ventana de propiedades clic en "Aplicar".
       6. En la ventana confirmamos la acción en el botón "Sí"
       7. En la misma ventana de propiedades clic en "Aceptar" y repetimos el proceso con cada carpeta.
+      8. Si no funciona siga los siguientes pasos:
+         1. Presionar `Windows + R` para abrir el ejecutar.
+         2. Introduzca "regedit", presionar enter y presionar "Si" en la ventana como administrador.
+         3. Ir a la ruta: `Equipo\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
+         4. Estando en User Shell Folders, hay una columna llamada "Datos". Búsque las rutas que terminen en la carpeta por ejemplo: "...\\Documentos"
+         5. Dar doble clic en la celda de la columna "Nombre"
+         6. Edite la ubicación en el campo "Información de valor" por ejemplo cambiar "C:\Users\USUARIO\OneDrive\Documentos" a "D:\Mi PC\Documentos"
+         7. Reiniciar el ordenador y volver a intentar el proceso de cambiar ubicación de carpeta.
   14. Reiniciar y volver a entrar la la BIOS para bajar la prioridad de arranque al USB.
 
 ### ⬇️ Descargo e instalo los programas
