@@ -92,7 +92,62 @@
 
 ### ⬇️ Descargo e instalo los programas
 
-  1.
+  1. WinRar
+  2. **Navegadores:**
+     1. Google Chrome
+     2. Firefox
+     3. Brave
+        1. Crear tres perfiles:
+           1. SoyLuisArrieta
+           2. Jessi
+           3. Invitado
+        2. Cambiar a modo oscuro en [Diseño](brave://settings/appearance).
+        3. Importar [mis marcadores](../browser/bookmarks_06_04_24.html).
+        4. Instalar [mis extensiones favoritas](../browser/extensions.md).
+        5. Configurar buscador de YouTube por URL:
+           1. Ir a [Administrar la búsqueda en sitios y motores de búsqueda](brave://settings/searchEngines)
+           2. En la sección "Búsqueda en sitios", presionar en "Agregar".
+           3. Nombre: `Youtube`
+           4. Atajo: `you`
+           5. URL: `https://www.youtube.com/results?search_query=%s`
+           6. Presionar en "Guardar"
+           7. Probar en la url poniendo "you" y presionando la tecla `Tab`
+        6. Iniciar sesión de cuentas Gmail en el siguiente orden:
+           1. <louise.avilez.7@gmail.com>
+           2. <luisarrieta796@gmail.com>
+           3. <paylusestudio@gmail.com>
+           4. <jpaola1017@gmail.com>
+        7. Fijar páginas recurrentes:
+           1. [WhatsApp](https://web.whatsapp.com/)
+           2. [OpenAI - ChatGPT](https://chat.openai.com/)
+           3. [Maol - ChatGPT](https://chatgpt.maol.dev/)
+           4. [Gemini](https://gemini.google.com/app/a49e6412839f4f59)
+           5. [Gmail - luisarrieta796@gmail.com](https://mail.google.com/mail/u/1/#inbox)
+  3. **Programación:**
+     1. [XAMPP](https://www.apachefriends.org/es/download.html) con PHP
+     2. [Composer-Setup.exe](https://getcomposer.org/download/)
+     3. [NodeJS](https://nodejs.org/en/download/current)
+     4. [Visual Studio Code](https://code.visualstudio.com/download)
+        1. Instalar [mis extensiones favoritas](../vs-code/extensions.md)
+        2. Sobreescribir [los ajustes de usuario](../vs-code/user-settings-json.md)
+     5. [Git](https://git-scm.com/downloads) con Git Bash
+        1. Configurar mi identidad:
+           - `git config --global user.name "Luis Arrieta"`
+           - `git config --global user.email luisarrieta796@gmail.com`
+        2. Instalar los [Bash aliases](../terminal/bash-aliases.md)
+     6. [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=es-es&gl=ES)
+     7. [Postman](https://www.postman.com/downloads/)
+  4. **Edición multimedia:**
+     1. Adobe Photoshop 2021
+     2. Adobe Illustrator 2020
+     3. Adobe Affter effects 2019
+  5. **Otros relevantes**
+     1. [Notion](https://www.notion.so/es-es/desktop)
+     2. [Lightshot](https://app.prntscr.com/es/download.html)
+     3. Reproductor de audio y video (MPV y VLC)
+     4. [ScreenToGif](https://www.screentogif.com/downloads)
+     5. [Discord](https://discord.com/download)
+     6. [OBS Studio](https://obsproject.com/es/download)
 
 ### 🗜️ Aplico configuraciones adicionales los programas
 
