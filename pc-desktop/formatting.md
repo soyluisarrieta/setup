@@ -125,7 +125,7 @@
      1. Google Chrome
      2. Firefox
      3. Brave
-        1. Crear tres perfiles:
+        1. Crear tres perfiles en las opciones de Brave está "Más herramientas/Crear un nuevo perfil":
            1. SoyLuisArrieta
            2. Jessi
            3. Invitado
