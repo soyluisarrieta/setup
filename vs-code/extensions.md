@@ -24,7 +24,7 @@
 
 ## Evitar que se combinen los colores de Fluent UI y One Dark Pro
 
-  1. Borrar propiedad Colors y su contenido en: `C:\Users\USUARIO\.vscode\extensions\zhuangtongfa.material-theme-3.17.0\themes\OneDark-Pro.json`
+  1. Borrar propiedad Colors y su contenido en: `C:\Users\USUARIO\.vscode\extensions\zhuangtongfa.material-theme-3.17.0\styles\OneDark-Pro.json`
 
       ```json
       {
