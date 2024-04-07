@@ -38,23 +38,24 @@
    1. Apagar computadora y acceder a la BIOS usando la tecla `F2`.
    2. Buscamos la zona para cambiar el orden de arranque y priorizamos la USB Booteada.
    3. Presionar `F10` para salir y guardar.
-   4. Una vez inicie el instalador de windows, seleccionar idioma .
-   5. Seleccionar distribución de teclado "Español (España)" y presionar siguiente.
-   6. Presionar el botón de Instalar.
-   7. Presionar no tengo una clave de producto.
-   8. Seleccionar la versión de Windows 11 Pro y presionar siguiente.
-   9. Marcar aceptar los terminos y presionar siguiente.
-   10. Presionar en la opción de instalación "Personalizada: Instalar solo Windows"
-   11. Eliminar cada partición y formatear las que no permita eliminar.
-   12. Con un disco duro de 476gb, dividiremos en 2 particiones de la siguiente manera:
+   4. El sistema solicitará muy rápidamente que se presione cualquier tecla.
+   5. Una vez inicie el instalador de windows, seleccionar idioma .
+   6. Seleccionar distribución de teclado "Español (España)" y presionar siguiente.
+   7. Presionar el botón de Instalar.
+   8. Presionar no tengo una clave de producto.
+   9. Seleccionar la versión de Windows 11 Pro y presionar siguiente.
+   10. Marcar aceptar los terminos y presionar siguiente.
+   11. Presionar en la opción de instalación "Personalizada: Instalar solo Windows"
+   12. Eliminar cada partición y formatear las que no permita eliminar.
+   13. Con un disco duro de 476gb, dividiremos en 2 particiones de la siguiente manera:
         > *Al presionar en el botón "Nuevo" se creará la respectiva partición*
        - **Disco C** (Programas, instalaciones, configuraciones, códigos de programación en htdocs) le asignamos un tamaño de **204,800 MB**
        - **Disco D** (Carpetas documentos, imagenes, video, musica, escritorio, archivos importantes) le asignamos el restante completo.
-   13. Seleccionamos la unidad Disco C (La que tiene 200gb) y presionar "Siguiente".
-   14. Una vez termine el proceso de instalación, introducimos el nombre al dispositivo y presionar "Siguiente".
-   15. Seleccionamos la configuración para uso personal y presionar "Siguiente".
-   16. Presionar "Iniciar sesión" para ingresar o crear la cuenta de Microsoft.
-   17. Con esto finalizaría los últimos ajustes de instalación.
+   14. Seleccionamos la unidad Disco C (La que tiene 200gb) y presionar "Siguiente".
+   15. Una vez termine el proceso de instalación, introducimos el nombre al dispositivo y presionar "Siguiente".
+   16. Seleccionamos la configuración para uso personal y presionar "Siguiente".
+   17. Presionar "Iniciar sesión" para ingresar o crear la cuenta de Microsoft.
+   18. Con esto finalizaría los últimos ajustes de instalación.
 
 ### ✨ Configuro mis preferencias iniciales
 
