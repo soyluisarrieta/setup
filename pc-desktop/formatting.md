@@ -43,7 +43,7 @@
    6. Seleccionar distribución de teclado "Español (España)" y presionar siguiente.
    7. Presionar el botón de Instalar.
    8. Presionar no tengo una clave de producto.
-   9. Seleccionar la versión de Windows 11 Pro y presionar siguiente.
+   9. Seleccionar la versión de Windows 11 Home y presionar siguiente.
    10. Marcar aceptar los terminos y presionar siguiente.
    11. Presionar en la opción de instalación "Personalizada: Instalar solo Windows"
    12. Eliminar cada partición y formatear las que no permita eliminar.
