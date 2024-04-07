@@ -151,6 +151,7 @@
            3. [Maol - ChatGPT](https://chatgpt.maol.dev/)
            4. [Gemini](https://gemini.google.com/app/a49e6412839f4f59)
            5. [Gmail - luisarrieta796@gmail.com](https://mail.google.com/mail/u/1/#inbox)
+           6. [Youtube](https://www.youtube.com/)
   3. **Programación:**
      1. [XAMPP](https://www.apachefriends.org/es/download.html) con PHP
      2. [Composer-Setup.exe](https://getcomposer.org/download/)
