@@ -133,7 +133,7 @@
         3. Importar [mis marcadores](../browser/bookmarks_06_04_24.html).
         4. Instalar [mis extensiones favoritas](../browser/extensions.md).
         5. Configurar buscador de YouTube por URL:
-           1. Ir a [Administrar la búsqueda en sitios y motores de búsqueda](brave://settings/searchEngines)
+           1. Ir a brave://settings/searchEngines
            2. En la sección "Búsqueda en sitios", presionar en "Agregar".
            3. Nombre: `Youtube`
            4. Atajo: `you`
