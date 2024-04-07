@@ -129,7 +129,7 @@
            1. SoyLuisArrieta
            2. Jessi
            3. Invitado
-        2. Cambiar a modo oscuro en [Diseño](brave://settings/appearance).
+        2. Cambiar a modo oscuro en brave://settings/appearance
         3. Importar [mis marcadores](../browser/bookmarks_06_04_24.html).
         4. Instalar [mis extensiones favoritas](../browser/extensions.md).
         5. Configurar buscador de YouTube por URL:
