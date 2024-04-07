@@ -74,6 +74,7 @@
      7. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
      8. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
      9. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
+  2. Activar licencia de Windows
   3. Verificar la distribucion de teclado (Español México).
   4. Personalizar windows dark con ventana en light.
   5. Activar luz nocturna con intensidad a gusto (30%).
@@ -129,23 +130,24 @@
            1. SoyLuisArrieta
            2. Jessi
            3. Invitado
-        2. Cambiar a modo oscuro en brave://settings/appearance
-        3. Importar [mis marcadores](../browser/bookmarks_06_04_24.html).
-        4. Instalar [mis extensiones favoritas](../browser/extensions.md).
-        5. Configurar buscador de YouTube por URL:
-           1. Ir a brave://settings/searchEngines
+        2. Cambiar a modo oscuro en `brave://settings/appearance`
+        3. Cambiar motor de búsqueda de Brave a Google en `brave://settings/search`
+        4. Importar [mis marcadores](../browser/bookmarks_06_04_24.html).
+        5. Instalar [mis extensiones favoritas](../browser/extensions.md).
+        6. Configurar buscador de YouTube por URL:
+           1. Ir a `brave://settings/searchEngines`
            2. En la sección "Búsqueda en sitios", presionar en "Agregar".
            3. Nombre: `Youtube`
            4. Atajo: `you`
            5. URL: `https://www.youtube.com/results?search_query=%s`
            6. Presionar en "Guardar"
            7. Probar en la url poniendo "you" y presionando la tecla `Tab`
-        6. Iniciar sesión de cuentas Gmail en el siguiente orden:
+        7. Iniciar sesión de cuentas Gmail en el siguiente orden:
            1. <louise.avilez.7@gmail.com>
            2. <luisarrieta796@gmail.com>
            3. <paylusestudio@gmail.com>
            4. <jpaola1017@gmail.com>
-        7. Fijar páginas recurrentes:
+        8. Fijar páginas recurrentes:
            1. [WhatsApp](https://web.whatsapp.com/)
            2. [OpenAI - ChatGPT](https://chat.openai.com/)
            3. [Maol - ChatGPT](https://chatgpt.maol.dev/)
