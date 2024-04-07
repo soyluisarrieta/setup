@@ -58,7 +58,37 @@
 
 ### ✨ Configuro mis preferencias iniciales
 
-  1.
+  1. Usar copia de seguridad de los Drivers:
+     1. Buscar en el menú "Administrador de dispositivos".
+     2. Desplegar pestaña por ejemeplo "Adaptadores de pantalla".
+     3. Clic derecho al controlador y presionar "Actualizar controlador"
+     4. Presionar en "Buscar controladores en mi equipo".
+     5. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
+     6. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
+     7. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
+  2. Verificar la distribucion de teclado (Español España).
+  3. Personalizar windows dark con ventana en light.
+  4. Tiempos de espera 5min - 3h y suspención a los 15min - 5h.
+  5. Anclar Explorador de archivos en la barra de herramientas.
+  6. Quitar el icono de la vista de tareas de la barra de herramientas.
+  7. Quitar recientes del menú.
+  8. En el explorador de archivos:
+     1. Activar "Mostrar extensiones de nombre de archivos".
+     2. Activar "Mostrar elementos ocultos".
+  9. Convertir el disco de los archivos en el disco de unidad "D".
+  10. Cambiar ubicación de las carpetas generales.
+      1. Creamos las carpetas en el disco D:
+         1. Escritorio
+         2. Documentos
+         3. Imágenes
+         4. Música
+         5. Video
+      2. Clic derecho en la carpeta original por ejemplo "Escritorio".
+      3. Clic en "Propiedades" y abrir la pestaña "Ubicación".
+      4. Presionar en el botón "Mover" y seleccionamos la nueva carpeta por ejemplo "Escritorio".
+      5. Presionar "Seleccionar carpeta" y en la ventana de propiedades clic en "Aplicar".
+      6. En la ventana confirmamos la acción en el botón "Sí"
+      7. En la misma ventana de propiedades clic en "Aceptar" y repetimos el proceso con cada carpeta.
 
 ### ⬇️ Descargo e instalo los programas
 
