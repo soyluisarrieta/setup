@@ -1,4 +1,4 @@
-# 🖥️ Formateo de mi PC-Desktop
+# 🖥️ Formateo y configuración de mi PC-Desktop
 
 > Esta es mi guía para formatear mi PC-Desktop.
 
@@ -32,72 +32,42 @@
    3. Presionar en el botón SELECCIONAR para adjuntar la ISO.
    4. Verificar que el esquema de partición sea MBR.
    5. Presionamos EMPEZAR y esperamos a que la USB sea booteada.
-   6. Apagar computadora y acceder a la BIOS usando la tecla `F2`.
-   7. Buscamos la zona para cambiar el orden de arranque y priorizamos la USB Booteada.
 
 ### 🚀 Realizo el formateo
 
-   1.
+   1. Apagar computadora y acceder a la BIOS usando la tecla `F2`.
+   2. Buscamos la zona para cambiar el orden de arranque y priorizamos la USB Booteada.
+   3. Presionar `F10` para salir y guardar.
+   4. Una vez inicie el instalador de windows, seleccionar idioma .
+   5. Seleccionar distribución de teclado "Español (España)" y presionar siguiente.
+   6. Presionar el botón de Instalar.
+   7. Presionar no tengo una clave de producto.
+   8. Seleccionar la versión de Windows 11 Pro y presionar siguiente.
+   9. Marcar aceptar los terminos y presionar siguiente.
+   10. Presionar en la opción de instalación "Personalizada: Instalar solo Windows"
+   11. Eliminar cada partición y formatear las que no permita eliminar.
+   12. Con un disco duro de 476gb, dividiremos en 2 particiones de la siguiente manera:
+        > *Al presionar en el botón "Nuevo" se creará la respectiva partición*
+       - **Disco C** (Programas, instalaciones, configuraciones, códigos de programación en htdocs) le asignamos un tamaño de **204,800 MB**
+       - **Disco D** (Carpetas documentos, imagenes, video, musica, escritorio, archivos importantes) le asignamos el restante completo.
+   13. Seleccionamos la unidad Disco C (La que tiene 200gb) y presionar "Siguiente".
+   14. Una vez termine el proceso de instalación, introducimos el nombre al dispositivo y presionar "Siguiente".
+   15. Seleccionamos la configuración para uso personal y presionar "Siguiente".
+   16. Presionar "Iniciar sesión" para ingresar o crear la cuenta de Microsoft.
+   17. Con esto finalizaría los últimos ajustes de instalación.
 
 ### ✨ Configuro mis preferencias iniciales
 
-  1. Distribucion de teclados (ES - USA)
-  2. Personalizar windows dark con ventana en light
-  3. Tiempos de espera 5min - 3h y suspención a los 15min - 5h
-  4. Anclar Explorador de archivos en la barra de herramientas
-  5. Quitar el icono de la vista de tareas de la barra de herramientas
-  6. Quitar recientes del menú
-  7. Mostrar extensiones de formatos de los archivos + mostrar elementos ocultos
-  8. Convertir el disco de los archivos en el disco D
+  1.
 
 ### ⬇️ Descargo e instalo los programas
 
-  1. XAMPP con PHP
-  2. Brave
-  3. Firefox
-  4. Composer
-  5. NodeJS
-  6. Visual Studio Code
-  7. Git
-  8. Notion
-  9. WinRar
-  10. Activar Windows (KMSAuto)
-  11. Adobe Illustrator 2019 (Abrir su primera vez)
-  12. Adobe Affter effects 2019 (Abrir su primera vez)
-  13. Adobe Photoshop CS6 2017 (Abrir su primera vez)
-  14. Reproductor de audio y video (MPV y VLC)
-  15. Instalar navegadores (Brave + extensiones, chrome y firefox)(Internet required)
-  16. Configurar buscador de youtube en brave: <https://www.youtube.com/results?search_query=%s>
-  17. Instalar Marcadores y Extensiones para brave
-  18. Visor de imagenes de Windows 7
-  19. Git y Github
-  20. Spotify + login + crack (Internet required)
-  21. Sublime text 3 + license
-  22. SUblime text 3 package control + pack de plugins (Internet required)
-  23. XAMPP
-  24. NodeJs
-  25. Composer (Internet required)
-  26. Lightshot
-  27. Adobe Illustratos 2020 v24.2.1
-  28. Adobe Photoshop 2021 v22.1.0
-  29. Adobe Affter Effects 2019 v16.1.1
-  30. Blender v2.92.0
-  31. Reproductor de música y video MPV v2.0.0
-  32. Lightshot v5.5.0.7
-  33. Extensiones para Brave (Google Translate y Wappalyzer)
-  34. Distribución de teclado en Inglés
+  1.
 
 ### 🗜️ Aplico configuraciones adicionales los programas
 
-  1. Distribucion de teclados (ES - USA)
-  2. Personalizar windows dark con ventana en light
-  3. Tiempos de espera 5min - 3h y suspención a los 15min - 5h
-  4. Anclar Explorador de archivos en la barra de herramientas
-  5. Quitar el icono de la vista de tareas de la barra de herramientas
-  6. Quitar recientes del menú
-  7. Mostrar extensiones de formatos de los archivos + mostrar elementos ocultos
-  8. Convertir el disco de los archivos en el disco D
+  1.
 
 ### ✅ Pasos finales
 
-   1.
+  1.
