@@ -180,11 +180,17 @@
      5. [Discord](https://discord.com/download)
      6. [OBS Studio](https://obsproject.com/es/download)
 
-### 🗜️ Aplico configuraciones adicionales los programas
+### ✅ Ajustes finales
+
+  1. Actualizar instaladores de los programas descargados en el disco duro externo.
+  2. Desanclar todo del menú de Windows.
+  3. Ir a "Configuración de inicio" y modificar a gusto.
+  4. Quitar pin de acceso de inicio de sesión de Windows.
+        1. Ir a `Configuración > Cuentas > Tu información >`.
+        2. En Cuenta de Microsoft presionar en "Iniciar sesión con una cuenta local en su lugar".
+        3. Seguir los pasos pero en **el formulario de información de tu cuenta local** únicamente introducir el **Nombre de usuario**.
+        4. El proceso termina con "Cerrar sesión y acabar".
+
+### ✨ Optimización
 
   1. 
-
-### ✅ Pasos finales
-
-  1. Desanclar todo del menú de Windows
-  2. Ir a "Configuración de inicio" y modificar a gusto
