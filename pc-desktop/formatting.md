@@ -10,15 +10,16 @@
    2. Revisar carpetas: escritorio, documentos, imagenes, video, musica.
    3. Exportar bases de datos de phpmyadmin y guardar en el respectivo proyecto.
    4. Revisar htdocs que los proyectos relevantes se hallan hecho push a GitHub.
-   5. Screenshot a los accesos directos anclados al menu.
-   6. Verificar si toca actualizar los [alias de bash](../terminal/bash-aliases.md)
-   7. **Navegador:**
+   5. Exportar lienzo de [Excalidraw](https://excalidraw.com/)
+   6. Screenshot a los accesos directos anclados al menu.
+   7. Verificar si toca actualizar los [alias de bash](../terminal/bash-aliases.md)
+   8. **Navegador:**
       1. Exportar marcadores.
       2. Verificar si toca actualizar [lista de extensiones para el navegador](../browser/extensions.md).
-   8. **VS Code:**
+   9. **VS Code:**
       1. Verificar si toca actualizar [lista de extensiones para el editor de código](../vs-code/extensions.md).
       2. Verificar si toca actualizar [ajustes de usuario en JSON](../vs-code/user-settings-json.md).
-   9. **Drivers:**
+   10. **Drivers:**
       1. Ir al directorio *C:\Windows\System32*.
       2. Seleccionar y copiar las carpetas *drivers* y *DriverStore*.
       3. Pegar en el la unidad de copias de seguridad.
@@ -242,17 +243,26 @@
         - `git config --global user.email luisarrieta796@gmail.com`
      3. Instalar los [Bash aliases](../terminal/bash-aliases.md).
      4. Abrir una terminal de Git Bash y ejecutar: `cd ~`.
-     5. Ejecutar el siguiente comando: `ssh-keygen -t ed25519 -C luisarrieta796@gmail.com`
-     6. Presionar `Enter`, luego digitar una contraseña y repetir la contraseña
-     7. Abrimos la llave pública ejecutando `notepad .ssh/id_ed25519.pub`
-     8. Ir a la lista de [llaves SSH de Github](https://github.com/settings/keys) de mi cuenta.
-     9. Verificar si toca eliminar llaves que ya no utilizo.
-     10. Presionar botón "New SSH key".
-     11. Rellenar el formulario: `Title`="PC-Desktop-2024" y en `Key` pegar llave pública.
-     12. Presionar "Add SSH key"
-     13. Para hacer la prueba de conexión, en la terminal de Git Bash ejecutar `ssh -T git@github.com`
-     14. La terminal preguntará "Are you sure you want to continue connecting (yes/no/[fingerprint])?"
-     15. Escribir "yes" y presionar "Enter", finalmente digitar la contraseña y "Enter"
+     5. Ejecutar el siguiente comando: `ssh-keygen -t ed25519 -C luisarrieta796@gmail.com`.
+     6. Presionar `Enter`, luego digitar una contraseña y repetir la contraseña.
+     7. Ejecutar `eval "$(ssh-agent -s)"` para inicializar Agente SSH.
+     8. Ejecutar `notepad ~/.ssh/config` para verifica si existe, de lo contrario, presionar en crear.
+     9. Introducimos este bloque de código:
+         ```bash
+         Host github.com
+           AddKeysToAgent yes
+           UseKeychain yes
+           IdentityFile ~/.ssh/id_ed25519
+         ```
+     10. Abrimos la llave pública ejecutando `notepad .ssh/id_ed25519.pub`
+     11. Ir a la lista de [llaves SSH de Github](https://github.com/settings/keys) de mi cuenta.
+     12. Verificar si toca eliminar llaves que ya no utilizo.
+     13. Presionar botón "New SSH key".
+     14. Rellenar el formulario: `Title`="PC-Desktop-2024" y en `Key` pegar llave pública.
+     15. Presionar "Add SSH key"
+     16. Para hacer la prueba de conexión, en la terminal de Git Bash ejecutar `ssh -T git@github.com`
+     17. La terminal preguntará "Are you sure you want to continue connecting (yes/no/[fingerprint])?"
+     18. Escribir "yes" y presionar "Enter", finalmente digitar la contraseña y "Enter"
   8. Configurar OBS:
      1. Abrir OBS e ir a `Archivos > Ajustes`.
      2. Ingresar en la pestaña de "Salida".
