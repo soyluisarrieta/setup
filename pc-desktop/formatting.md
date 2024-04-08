@@ -265,7 +265,12 @@
      1. Instalar [mis extensiones favoritas](../vs-code/extensions.md).
      2. Sobreescribir [los ajustes de usuario](../vs-code/user-settings-json.md).
   10. Cambiar brillo de Illustrator y Photoshop en `Edición > Preferencias > Interfaz de usuario`.
-
+  11. Preferencias en XAMPP:
+     1. Ir a `C:\xampp\.htdocs` y presionar clic derecho y en "Anclar a acceso rápido".
+     2. Ingresar a la carpeta y crear una carpeta con el nombre `XAMPP_DASHBOARD`
+     3. Mover todo el contenido de .htdocs a esa misma carpeta.
+     4. Arrastrar la carpeta .htdocs de acceso rápido hasta arriba.
+      
 ### 💫 Optimización
 
   1. 
