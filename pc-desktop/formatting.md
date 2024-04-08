@@ -224,35 +224,47 @@
      1. Ir a `Configuración > Cuentas > Tu información`.
      2. En Cuenta de Microsoft presionar en "Iniciar sesión con una cuenta local en su lugar".
      3. Seguir los pasos pero en **el formulario de información de tu cuenta local** únicamente introducir el **Nombre de usuario**.
-     4. Para cambiar la imagen de perfil nuevamente ir a `Configuración > Cuentas > Tu información` y clic en el botón "Examinar archivos"
+     4. Para cambiar la imagen de perfil nuevamente ir a `Configuración > Cuentas > Tu información` y clic en el botón "Examinar archivos".
   5. Configurar Lightshot:
-     1. Ir a `Configuración > Accesibilidad > Teclado`
-     2. Desactivar la opción que dice: "Usar la tecla de Imprimir pantalla para abrir la captura de pantalla"
-     3. Ahora vamos a las opciones de Lightshot
-     4. El proceso termina con "Cerrar sesión y acabar" dentro de la pestaña de "Teclas de acceso rápido"
-     5. Dar clic en el campo que dice "IMP PANT" y presionar la tecla `ImpPnt`
-     6. Con esto se actualizará la configuración y presionar "Aceptar"
+     1. Ir a `Configuración > Accesibilidad > Teclado`.
+     2. Desactivar la opción que dice: "Usar la tecla de Imprimir pantalla para abrir la captura de pantalla".
+     3. Ahora vamos a las opciones de Lightshot.
+     4. El proceso termina con "Cerrar sesión y acabar" dentro de la pestaña de "Teclas de acceso rápido".
+     5. Dar clic en el campo que dice "IMP PANT" y presionar la tecla `ImpPnt`.
+     6. Con esto se actualizará la configuración y presionar "Aceptar".
   6. Configurar Zona horaria:
-     1. Buscar en el menú de inicio "Cambiar la Zona horaria"
-     2. En Zona horaria seleccionar "(UTC-05:00) Bogotá, Lima, Quito, Branco"
+     1. Buscar en el menú de inicio "Cambiar la Zona horaria".
+     2. En Zona horaria seleccionar "(UTC-05:00) Bogotá, Lima, Quito, Branco".
   7. Configurar Git:
-     1. Abrir una teminar de Git Bash
+     1. Abrir una teminar de Git Bash.
      2. Configurar mi identidad:
         - `git config --global user.name "Luis Arrieta"`
         - `git config --global user.email luisarrieta796@gmail.com`
-     3. Instalar los [Bash aliases](../terminal/bash-aliases.md)
+     3. Instalar los [Bash aliases](../terminal/bash-aliases.md).
+     4. Abrir una terminal de Git Bash y ejecutar: `cd ~`.
+     5. Ejecutar el siguiente comando: `ssh-keygen -t ed25519 -C luisarrieta796@gmail.com`
+     6. Presionar `Enter`, luego digitar una contraseña y repetir la contraseña
+     7. Abrimos la llave pública ejecutando `notepad .ssh/id_ed25519.pub`
+     8. Ir a la lista de [llaves SSH de Github](https://github.com/settings/keys) de mi cuenta.
+     9. Verificar si toca eliminar llaves que ya no utilizo.
+     10. Presionar botón "New SSH key".
+     11. Rellenar el formulario: `Title`="PC-Desktop-2024" y en `Key` pegar llave pública.
+     12. Presionar "Add SSH key"
+     13. Para hacer la prueba de conexión, en la terminal de Git Bash ejecutar `ssh -T git@github.com`
+     14. La terminal preguntará "Are you sure you want to continue connecting (yes/no/[fingerprint])?"
+     15. Escribir "yes" y presionar "Enter", finalmente digitar la contraseña y "Enter"
   8. Configurar OBS:
-     1. Abrir OBS e ir a `Archivos > Ajustes`
-     2. Ingresar en la pestaña de "Salida"
-     3. En Formato de salida seleccionar a `MPEG-4 (.mp4)`
-     4. Ingresar en la pestaña de "Atajos"
-     5. Clic en el campo "Iniciar Grabación" y añadir un atajo de teclado por ejemplo: `CTRL + SHIFT + 1`
-     6. El mismo atajo configurarlo para el campo "Detener Grabación"
-     7. Aplicar y Aceptar
+     1. Abrir OBS e ir a `Archivos > Ajustes`.
+     2. Ingresar en la pestaña de "Salida".
+     3. En Formato de salida seleccionar a `MPEG-4 (.mp4)`.
+     4. Ingresar en la pestaña de "Atajos".
+     5. Clic en el campo "Iniciar Grabación" y añadir un atajo de teclado por ejemplo: `CTRL + SHIFT + 1`.
+     6. El mismo atajo configurarlo para el campo "Detener Grabación".
+     7. Aplicar y Aceptar.
   9. Configurar Visual Studio Code:
-     1. Instalar [mis extensiones favoritas](../vs-code/extensions.md)
-     2. Sobreescribir [los ajustes de usuario](../vs-code/user-settings-json.md)
-  10. Cambiar brillo de Illustrator y Photoshop en `Edición > Preferencias > Interfaz de usuario`
+     1. Instalar [mis extensiones favoritas](../vs-code/extensions.md).
+     2. Sobreescribir [los ajustes de usuario](../vs-code/user-settings-json.md).
+  10. Cambiar brillo de Illustrator y Photoshop en `Edición > Preferencias > Interfaz de usuario`.
 
 ### 💫 Optimización
 
