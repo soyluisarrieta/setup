@@ -1,6 +1,6 @@
-# 🖥️ Formateo y configuración de mi PC-Desktop
+# 🖥️ PC-Desktop
 
-> Esta es mi guía para formatear mi PC-Desktop.
+> Esta guía contiene los pasos sufientes para formatear, configurar y optimizar mi PC-Desktop.
 
 ## Pasos Previos al Formateo
 
@@ -73,50 +73,52 @@
      6. Presionar en "Buscar controladores en mi equipo".
      7. Examinar y seleccionar carpeta de backup que contiene: drivers y DriverStore.
      8. Presionar "Aceptar", verifica que la casilla "Incluir subcarpetas" esté verificada.
-     9. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers.
-  2. Activar licencia de Windows
-  3. Verificar la distribucion de teclado (Español México).
-  4. Personalizar windows dark con ventana en light.
-  5. Activar luz nocturna con intensidad a gusto (30%).
-  6. Tiempos de espera 5min a 1h
-  7. Suspención a nunca.
-  8. Quitar accesos directos de la barra de tareas buscando "Configuración barra de tareas".
-  9. Ocultar icono de buscar de la barra de tareas.
-  10. Desanclar el resto de accesos directos de la barra de tareas.
-  11. Quitar recientes del menú.
-  12. En el explorador de archivos desplegar en "Ver" y "Mostrar:
+     9. Clic en "Siguiente" y cuando finalice presionar "Cerrar" para repetir el proceso con todos los drivers
+  2. Microsoft Office
+  3. Activar licencia de Microsoft Office y de Windows
+  4. Presionar `Windows + v` y clic en el botón "Activar" para habilitar historial de portapapeles.
+  5. Verificar la distribucion de teclado (Español México).
+  6. Personalizar windows dark con ventana en light.
+  7. Activar luz nocturna con intensidad a gusto (30%).
+  8. Tiempos de espera 5min a 1h
+  9. Suspención a nunca.
+  10. Quitar accesos directos de la barra de tareas buscando "Configuración barra de tareas".
+  11. Ocultar icono de buscar de la barra de tareas.
+  12. Desanclar el resto de accesos directos de la barra de tareas.
+  13. Quitar recientes del menú.
+  14. En el explorador de archivos desplegar en "Ver" y "Mostrar:
      1. Activar mostrar "Extensiones de nombre de archivos".
      2. Activar mostrar "Elementos ocultos".
-  13. Formatear y cambiar letra del disco de los archivos en el disco de unidad "D".
-      1. Buscar "Crear y formatear particiones del disco duro".
-      2. Clic derecho en la unidad y presionar en "Cambiar letra y ruta de acceso de unidad...".
-      3. Presionar "Cambiar" y seleccionar "D".
-      4. Presionar "Aceptar" y confirmar acción en "Si".
-      5. Clic derecho nuevamente a la unidad y presionar "Formatear".
-      6. En etiqueta introducir "ARCHIVOS".
-      7. En sistema de archivos en "NTFS".
-      8. Presionar "Aceptar" y confirmar accion en "Acetar".
-  14. Cambiar ubicación de las carpetas generales al disco D.
-      1. Creamos la carpeta "Mi PC" y dentro las carpetas:
-         1. Escritorio
-         2. Documentos
-         3. Imágenes
-         4. Música
-         5. Video
-      2. Clic derecho en la carpeta original por ejemplo "Escritorio".
-      3. Clic en "Propiedades" y abrir la pestaña "Ubicación".
-      4. Presionar en el botón "Mover" y seleccionamos la nueva carpeta por ejemplo "Escritorio".
-      5. Presionar "Seleccionar carpeta" y en la ventana de propiedades clic en "Aplicar".
-      6. En la ventana confirmamos la acción en el botón "Sí"
-      7. En la misma ventana de propiedades clic en "Aceptar" y repetimos el proceso con cada carpeta.
-      8. Si no funciona siga los siguientes pasos:
-         1. Presionar `Windows + R` para abrir el ejecutar.
-         2. Introduzca "regedit", presionar enter y presionar "Si" en la ventana como administrador.
-         3. Ir a la ruta: `Equipo\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
-         4. Estando en User Shell Folders, hay una columna llamada "Datos". Búsque las rutas que terminen en la carpeta por ejemplo: "...\\Documentos"
-         5. Dar doble clic en la celda de la columna "Nombre"
-         6. Edite la ubicación en el campo "Información de valor" por ejemplo cambiar "C:\Users\USUARIO\OneDrive\Documentos" a "D:\Mi PC\Documentos"
-         7. Reiniciar el ordenador y volver a intentar el proceso de cambiar ubicación de carpeta.
+  15. Formatear y cambiar letra del disco de los archivos en el disco de unidad "D".
+     1. Buscar "Crear y formatear particiones del disco duro".
+     2. Clic derecho en la unidad y presionar en "Cambiar letra y ruta de acceso de unidad...".
+     3. Presionar "Cambiar" y seleccionar "D".
+     4. Presionar "Aceptar" y confirmar acción en "Si".
+     5. Clic derecho nuevamente a la unidad y presionar "Formatear".
+     6. En etiqueta introducir "ARCHIVOS".
+     7. En sistema de archivos en "NTFS".
+     8. Presionar "Aceptar" y confirmar accion en "Acetar".
+  16. Cambiar ubicación de las carpetas generales al disco D.
+     1. Creamos la carpeta "Mi PC" y dentro las carpetas:
+        1. Escritorio
+        2. Documentos
+        3. Imágenes
+        4. Música
+        5. Video
+     2. Clic derecho en la carpeta original por ejemplo "Escritorio".
+     3. Clic en "Propiedades" y abrir la pestaña "Ubicación".
+     4. Presionar en el botón "Mover" y seleccionamos la nueva carpeta por ejemplo "Escritorio".
+     5. Presionar "Seleccionar carpeta" y en la ventana de propiedades clic en "Aplicar".
+     6. En la ventana confirmamos la acción en el botón "Sí"
+     7. En la misma ventana de propiedades clic en "Aceptar" y repetimos el proceso con cada carpeta.
+     8. Si no funciona siga los siguientes pasos:
+        1. Presionar `Windows + R` para abrir el ejecutar.
+        2. Introduzca "regedit", presionar enter y presionar "Si" en la ventana como administrador.
+        3. Ir a la ruta: `Equipo\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders`
+        4. Estando en User Shell Folders, hay una columna llamada "Datos". Búsque las rutas que terminen en la carpeta por ejemplo: "...\\Documentos"
+        5. Dar doble clic en la celda de la columna "Nombre"
+        6. Edite la ubicación en el campo "Información de valor" por ejemplo cambiar "C:\Users\USUARIO\OneDrive\Documentos" a "D:\Mi PC\Documentos"
+        7. Reiniciar el ordenador y volver a intentar el proceso de cambiar ubicación de carpeta.
   14. Reiniciar y volver a entrar la la BIOS para bajar la prioridad de arranque al USB.
 
 ### ⬇️ Descargo e instalo los programas
@@ -159,13 +161,7 @@
      2. [Composer-Setup.exe](https://getcomposer.org/download/)
      3. [NodeJS](https://nodejs.org/en/download/current)
      4. [Visual Studio Code](https://code.visualstudio.com/download)
-        1. Instalar [mis extensiones favoritas](../vs-code/extensions.md)
-        2. Sobreescribir [los ajustes de usuario](../vs-code/user-settings-json.md)
      5. [Git](https://git-scm.com/downloads) con Git Bash
-        1. Configurar mi identidad:
-           - `git config --global user.name "Luis Arrieta"`
-           - `git config --global user.email luisarrieta796@gmail.com`
-        2. Instalar los [Bash aliases](../terminal/bash-aliases.md)
      6. [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=es-es&gl=ES)
      7. [Postman](https://www.postman.com/downloads/)
   4. **Edición multimedia:**
@@ -175,29 +171,89 @@
   5. **Otros relevantes**
      1. [Notion](https://www.notion.so/es-es/desktop)
      2. [Lightshot](https://app.prntscr.com/es/download.html)
-     3. Reproductor de audio y video (MPV y VLC)
-     4. [ScreenToGif](https://www.screentogif.com/downloads)
-     5. [Discord](https://discord.com/download)
-     6. [OBS Studio](https://obsproject.com/es/download)
+     3. [ScreenToGif](https://www.screentogif.com/downloads)
+     4. [Discord](https://discord.com/download)
+     5. [OBS Studio](https://obsproject.com/es/download)
+     6. Audacity
+     7. Reproductor de audio y video (MPV y VLC)
+        1. Para MVC copiar la carpeta MPV
+        2. Ir a `C:\Program Files\` y pegar
+        3. Ingresar a la carpeta pegada MPV y de la carpeta "installer"
+        4. Ejecutar como administrador el archivo "mpv-install.bat"
 
-### ✅ Ajustes finales
+### ⚙️ Ajustes y configuraciones
 
   1. Actualizar instaladores de los programas descargados en el disco duro externo.
-  2. Desanclar todo del menú de Windows.
-  3. Ir a "Configuración de inicio" y modificar a gusto.
+  2. Menú de inicio de Windows:
+     1. Desanclar todo los programas del menú de inicio.
+     2. Ir a `Configuración > Personalización > Inicio`.
+     3. Diseño: Más elementos anclados.
+     4. Todo desactivado.
+     5. Carpetas solo activar "Configuración" y "Explorador de archivos".
+  3. Anclar los siguientes programas en el menú de inicio:
+     1. Brave
+     2. VS Code
+     3. Notion
+     4. Discord
+     5. Reloj
+     6. Calculadora
+     7. Grupo "NAVEGADORES"
+         1. Google Chrome
+         2. Firefox
+         3. Edge
+     8. Grupo "ADOBE"
+         1. Illustrator
+         2. Photoshop
+         3. Affter Effects
+     9. Grupo "OFFICE"
+         1. Microsoft World
+         2. Power Point
+         3. Excel
+     10. Grupo "TERMINALES"
+         1. Git Bash
+         2. Terminal de Windows
+         3. Power Shell
+         4. Símbolo del sistema 
+     11. Grupo "UTILIDADES"
+         1. Bloc de Notas
+         2. OBS Studio
+         3. ScreenToGif
+         4. Audacity
+     12. ARCHIVOS (D)
   4. Quitar pin de acceso de inicio de sesión de Windows.
-        1. Ir a `Configuración > Cuentas > Tu información`.
-        2. En Cuenta de Microsoft presionar en "Iniciar sesión con una cuenta local en su lugar".
-        3. Seguir los pasos pero en **el formulario de información de tu cuenta local** únicamente introducir el **Nombre de usuario**.
-        4. Para cambiar la imagen de perfil nuevamente ir a `Configuración > Cuentas > Tu información` y clic en el botón "Examinar archivos"
-  5. Cambiar captura de pantalla de Windows por Lightshot
-        1. Ir a `Configuración > Accesibilidad > Teclado`
-        2. Desactivar la opción que dice: "Usar la tecla de Imprimir pantalla para abrir la captura de pantalla"
-        3. Ahora vamos a las opciones de Lightshot
-        4. El proceso termina con "Cerrar sesión y acabar" dentro de la pestaña de "Teclas de acceso rápido"
-        5. Dar clic en el campo que dice "IMP PANT" y presionar la tecla `ImpPnt`
-        6. Con esto se actualizará la configuración y presionar "Aceptar"
+     1. Ir a `Configuración > Cuentas > Tu información`.
+     2. En Cuenta de Microsoft presionar en "Iniciar sesión con una cuenta local en su lugar".
+     3. Seguir los pasos pero en **el formulario de información de tu cuenta local** únicamente introducir el **Nombre de usuario**.
+     4. Para cambiar la imagen de perfil nuevamente ir a `Configuración > Cuentas > Tu información` y clic en el botón "Examinar archivos"
+  5. Configurar Lightshot:
+     1. Ir a `Configuración > Accesibilidad > Teclado`
+     2. Desactivar la opción que dice: "Usar la tecla de Imprimir pantalla para abrir la captura de pantalla"
+     3. Ahora vamos a las opciones de Lightshot
+     4. El proceso termina con "Cerrar sesión y acabar" dentro de la pestaña de "Teclas de acceso rápido"
+     5. Dar clic en el campo que dice "IMP PANT" y presionar la tecla `ImpPnt`
+     6. Con esto se actualizará la configuración y presionar "Aceptar"
+  6. Configurar Zona horaria:
+     1. Buscar en el menú de inicio "Cambiar la Zona horaria"
+     2. En Zona horaria seleccionar "(UTC-05:00) Bogotá, Lima, Quito, Branco"
+  7. Configurar Git:
+     1. Abrir una teminar de Git Bash
+     2. Configurar mi identidad:
+        - `git config --global user.name "Luis Arrieta"`
+        - `git config --global user.email luisarrieta796@gmail.com`
+     3. Instalar los [Bash aliases](../terminal/bash-aliases.md)
+  8. Configurar OBS:
+     1. Abrir OBS e ir a `Archivos > Ajustes`
+     2. Ingresar en la pestaña de "Salida"
+     3. En Formato de salida seleccionar a `MPEG-4 (.mp4)`
+     4. Ingresar en la pestaña de "Atajos"
+     5. Clic en el campo "Iniciar Grabación" y añadir un atajo de teclado por ejemplo: `CTRL + SHIFT + 1`
+     6. El mismo atajo configurarlo para el campo "Detener Grabación"
+     7. Aplicar y Aceptar
+  9. Configurar Visual Studio Code:
+     1. Instalar [mis extensiones favoritas](../vs-code/extensions.md)
+     2. Sobreescribir [los ajustes de usuario](../vs-code/user-settings-json.md)
+  10. Cambiar brillo de Illustrator y Photoshop en `Edición > Preferencias > Interfaz de usuario`
 
-### ✨ Optimización
+### 💫 Optimización
 
   1. 
