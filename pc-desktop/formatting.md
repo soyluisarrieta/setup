@@ -186,10 +186,17 @@
   2. Desanclar todo del menú de Windows.
   3. Ir a "Configuración de inicio" y modificar a gusto.
   4. Quitar pin de acceso de inicio de sesión de Windows.
-        1. Ir a `Configuración > Cuentas > Tu información >`.
+        1. Ir a `Configuración > Cuentas > Tu información`.
         2. En Cuenta de Microsoft presionar en "Iniciar sesión con una cuenta local en su lugar".
         3. Seguir los pasos pero en **el formulario de información de tu cuenta local** únicamente introducir el **Nombre de usuario**.
-        4. El proceso termina con "Cerrar sesión y acabar".
+        4. Para cambiar la imagen de perfil nuevamente ir a `Configuración > Cuentas > Tu información` y clic en el botón "Examinar archivos"
+  5. Cambiar captura de pantalla de Windows por Lightshot
+        1. Ir a `Configuración > Accesibilidad > Teclado`
+        2. Desactivar la opción que dice: "Usar la tecla de Imprimir pantalla para abrir la captura de pantalla"
+        3. Ahora vamos a las opciones de Lightshot
+        4. El proceso termina con "Cerrar sesión y acabar" dentro de la pestaña de "Teclas de acceso rápido"
+        5. Dar clic en el campo que dice "IMP PANT" y presionar la tecla `ImpPnt`
+        6. Con esto se actualizará la configuración y presionar "Aceptar"
 
 ### ✨ Optimización
 
