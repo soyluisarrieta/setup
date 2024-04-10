@@ -35,3 +35,37 @@ alias phphost='php artisan serve --host 192.168.1.105 --port 8000'
 alias phpserve='php artisan serve'
 alias phptest='php artisan serve --host test.com'
 ```
+
+Para PowerShell:
+
+```bash
+function gs{git status}
+function ga{git add @args}
+function gaa{git add .}
+function gfa{git fetch --all}
+
+function grman{git rebase -i main}
+function grmas{git rebase -i master}
+function grdev{git rebase -i develop}
+
+function commit{ git commit -m @args }
+function gcommit{git add .;git commit -m @args}
+function pushmas{git push origin master}
+function pushman{git push origin main}
+function pushdev{git push origin develop}
+
+function pullman{git pull origin main}
+function pullmas{git pull origin main}
+function pulldev{git pull origin develop}
+
+function pull{git pull @args}
+function glog{git log --oneline}
+function gch{git checkout @args}
+
+function gman{git checkout main}
+function gmas{git checkout master}
+function gdev{git checkout develop}
+
+function gb{git branch @args}
+function gd{git diff}
+```
