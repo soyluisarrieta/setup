@@ -44,10 +44,14 @@ function aliases{notepad $PROFILE}
 
 # Atajos
 function xampp{cd C:\xampp\htdocs\}
+function dev{cd D:\DEV}
 function art{php artisan @args}
 
 function npmserve{npm run dev @args}
-function phphost{php artisan serve --host 192.168.1.109 --port 8000}
+function phphost{
+  $ipAddress = (Get-NetIPAddress -AddressFamily IPv4 -InterfaceAlias "Ethernet" | Where-Object { $_.PrefixOrigin -eq "Dhcp" }).IPAddress
+  php artisan serve --host $ipAddress --port 8000
+}
 function phpserve{php artisan serve}
 function phptest{php artisan serve --host test.com}
 
@@ -81,13 +85,17 @@ function gman{git checkout main}
 function gmas{git checkout master}
 function gdev{git checkout develop}
 
-function grh{git reset HEAD}
-function grhh{git reset HEAD --hard}
+function grh{git reset HEAD @args}
+function grhh{git reset HEAD --hard @args}
+
+
+function gr {git restore @args}
 
 function gb{git branch @args}
 function gd{git diff}
 function clone{git clone @args}
 
+function gclean{git clean -f; git clean -fd}
 
 # Preferencias generales
 Set-PSReadLineOption -PredictionViewStyle ListView
