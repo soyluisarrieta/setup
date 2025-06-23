@@ -78,7 +78,7 @@
   2. Microsoft Office
   3. Activar licencia de Microsoft Office y de Windows
   4. Presionar `Windows + v` y clic en el botón "Activar" para habilitar historial de portapapeles.
-  5. Verificar la distribucion de teclado (Español México).
+  5. Verificar la distribucion de teclado (Español España).
   6. Personalizar windows dark con ventana en light.
   7. Activar luz nocturna con intensidad a gusto (30%).
   8. Tiempos de espera 5min a 1h
