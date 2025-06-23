@@ -159,24 +159,22 @@
            6. [Youtube](https://www.youtube.com/)
   3. **Programación:**
      1. [XAMPP](https://www.apachefriends.org/es/download.html) con PHP
-     2. [Composer-Setup.exe](https://getcomposer.org/download/)
+     2. [Laravel Herd](https://herd.laravel.com/windows)
      3. [NodeJS](https://nodejs.org/en/download/current)
-     4. [Visual Studio Code](https://code.visualstudio.com/download)
+     4. [Cursor](https://www.cursor.com/)
      5. [Git](https://git-scm.com/downloads) con Git Bash
-     6. [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=es-es&gl=ES)
-     7. [Postman](https://www.postman.com/downloads/)
+     6. PowerShell (Microsoft Store)
   4. **Edición multimedia:**
      1. Adobe Photoshop 2021
      2. Adobe Illustrator 2020
      3. Adobe Affter effects 2019
   5. **Otros relevantes**
-     1. [Notion](https://www.notion.so/es-es/desktop)
+     1. [Obsidian](https://obsidian.md/download)
      2. [Lightshot](https://app.prntscr.com/es/download.html)
      3. [ScreenToGif](https://www.screentogif.com/downloads)
      4. [Discord](https://discord.com/download)
      5. [OBS Studio](https://obsproject.com/es/download)
-     6. Audacity
-     7. Reproductor de audio y video (MPV y VLC)
+     6. Reproductor de audio y video (MPV y VLC)
         1. Para MVC copiar la carpeta MPV
         2. Ir a `C:\Program Files\` y pegar
         3. Ingresar a la carpeta pegada MPV y de la carpeta "installer"
