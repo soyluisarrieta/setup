@@ -244,7 +244,7 @@
      3. Instalar los [Bash aliases](../terminal/bash-aliases.md).
      4. Abrir una terminal de Git Bash y ejecutar: `cd ~`.
      5. Ejecutar el siguiente comando: `ssh-keygen -t ed25519 -C luisarrieta796@gmail.com`.
-     6. Presionar `Enter`, luego digitar una contraseña y repetir la contraseña.
+     6. Presionar `Enter`, luego (opcional->) digitar una contraseña y repetir la contraseña.
      7. Ejecutar `eval "$(ssh-agent -s)"` para inicializar Agente SSH.
      8. Ejecutar `notepad ~/.ssh/config` para verifica si existe, de lo contrario, presionar en crear.
      9. Introducimos este bloque de código:
