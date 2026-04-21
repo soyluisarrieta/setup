@@ -13,71 +13,54 @@ Pegue todas las configuraciones teniendo en cuenta que ya instaló [todas las ex
 ```json
 {
   // Ajustes generales
-  "security.workspace.trust.untrustedFiles": "open",
-  "workbench.colorTheme": "One Dark Pro",
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": false,
-  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.verticalScrollbarSize": 7,
   "editor.roundedSelection": true,
-  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "javascript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
-  "git.openRepositoryInParentFolders": "always",
   "markdownlint.run": "onSave",
-  "markdownlint.config": { "no-inline-html": false },
-  "symbols.hidesExplorerArrows": false,
+  "markdownlint.config": {
+    "no-inline-html": false,
+  },
   "workbench.iconTheme": "symbols",
   "window.menuBarVisibility": "compact",
-  "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
+  "editor.colorDecorators": true,
+  "tailwindCSS.colorDecorators": true,
 
-  // Auto formateadores
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features",
-    "editor.formatOnSave": true
+  // Formatters
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
   },
-  "[javascript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    },
+  "php.validate.executablePath": "c:\\php\\php.exe",
+  "php.format.rules.newLineAfterImplements": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
+  "php.codeLens.enabled": false,
+  "php.inlayHints.parameters.enabled": false,
+  "php.inlayHints.types.return": false,
+  "workbench.statusBar.visible": false,
   "[typescript]": {
-    "editor.defaultFormatter": "YoavBls.pretty-ts-errors",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
+  "claudeCode.preferredLocation": "panel",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+  },
+  "claudeCode.selectedModel": "default",
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode",
   },
+  "laravel-pint.enable": true,
   "[php]": {
-    "editor.defaultFormatter": "amiralizadeh9480.laravel-extra-intellisense",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
   },
-  "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "editor.formatOnSave": true,
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.formatOnSave": true
-  },
-  
-  // Tema
-  "workbench.colorCustomizations": {
-    "[One Dark Pro]": {
-      // Marcar los errores con un rojo vivo
-      "editorError.foreground": "#ff0000",
-      "editorHint.foreground": "#ff0000",
-      "editorInfo.foreground": "#ff0000",
-      "editorWarning.foreground": "#ff0000",
-      // Otras personalizaciones
-      "titleBar.activeBackground": "#292929",
-      "scrollbar.shadow": "#11111170",
-    }
-  },
+  "workbench.colorTheme": "Dark Modern",
+  "chat.disableAIFeatures": true,
 }
 ```
