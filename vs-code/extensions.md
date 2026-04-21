@@ -4,8 +4,6 @@
 
 | Nombre de la Extensión | Descripción en Español | Autor |
 | --- | --- | --- |
-| [Fluent UI for VSCode](https://marketplace.visualstudio.com/items?itemName=leandro-rodrigues.fluent-ui-vscode) (⚠️ Ejecutar VS-Code como Admin) | Fluent UI para VSCode basado en diseños conceptuales de u/zeealeidahmad | Leandro Rodrigues |
-| [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) | El icónico tema One Dark de Atom para Visual Studio Code | binaryify |
 | [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) | Un simple tema de iconos de archivos para VS Code | Miguel Solorio |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) | Todo lo que necesitas para escribir Markdown (atajos de teclado, tabla de contenidos, vista previa automática y más) | Yu Zhang |
 | [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | Resaltado de sintaxis y comprobación de estilo de Markdown para Visual Studio Code | David Anson |
@@ -21,33 +19,3 @@
 | [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | Muestra la vista previa de la imagen en el margen y al pasar el ratón | Kiss Tamás |
 | [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss) | Resaltado de sintaxis para CSS moderno y experimental en VSCode | csstools |
 | [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) | Desarrollo colaborativo en tiempo real desde la comodidad de tus herramientas favoritas | Microsoft |
-
-## Evitar que se combinen los colores de Fluent UI y One Dark Pro
-
-  1. Borrar propiedad Colors y su contenido en: `C:\Users\USUARIO\.vscode\extensions\zhuangtongfa.material-theme-3.17.0\styles\OneDark-Pro.json`
-
-      ```json
-      {
-        "name": "One Dark Pro",
-        "type": "dark",
-        "semanticHighlighting": true,
-        "semanticTokenColors": { ... },
-        "tokenColors": { ... },
-        // "colors": { ... }, <-- Borrar todo
-      }
-      ```
-
-  2. Comentar propiedad background en: `C:\Users\USUARIO\.vscode\extensions\zhuangtongfa.material-theme-3.17.0\themes\markdown-inside.css`
-
-      ```css
-      .vscode-dark[data-vscode-theme-name="One Dark Pro Mix"].vscode-body, .vscode-dark[data-vscode-theme-name="One Dark Pro Flat"].vscode-body, .vscode-dark[data-vscode-theme-name="One Dark Pro Darker"].vscode-body, .vscode-dark[data-vscode-theme-name="One Dark Pro"].vscode-body {
-          -ms-text-size-adjust: 100%;
-          -webkit-text-size-adjust: 100%;
-          line-height: 1.5;
-          color: rgb(171, 178, 191);
-          line-height: 1.5;
-          word-wrap: break-word;
-          /* background: #282c34; */
-          padding-top: 20px;
-        }
-      ```
