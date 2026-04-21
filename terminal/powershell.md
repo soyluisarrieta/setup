@@ -54,7 +54,7 @@ function gb {git branch @args}
 function gd {git diff}
 function clone {git clone @args}
 
-function gclean {git clean -f; git clean -fd}
+function gclean {git clean -fd}
 
 # Preferencias generales
 Set-PSReadLineOption -PredictionViewStyle ListView
@@ -94,3 +94,4 @@ function prompt {
 
     return " "
 }
+
