@@ -95,3 +95,14 @@ function prompt {
     return " "
 }
 
+function claude-free {
+  $b = Get-Content "$env:USERPROFILE\.claude\settings.json.bak-freellmapi" -Raw | ConvertFrom-Json
+  $vars = $b.env.PSObject.Properties
+  $vars | ForEach-Object { Set-Item "env:$($_.Name)" $_.Value }
+  try { claude @args }
+  finally { $vars | ForEach-Object { Remove-Item "env:$($_.Name)" -ErrorAction SilentlyContinue } }
+}
+
+function deploy-log { gh run list -R soyluisarrieta/wablar --workflow deploy --limit 1 }
+
+
